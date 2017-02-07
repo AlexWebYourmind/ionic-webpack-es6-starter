@@ -1,5 +1,5 @@
 {
-  "name": "ionic-webpack-starter",
+  "name": "ionic-webpack-es6-starter",
   "version": "1.1.1",
   "description": "ionic-webpack-starter: An Ionic project",
   "scripts": {
