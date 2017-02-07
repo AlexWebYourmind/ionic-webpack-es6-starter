@@ -3,7 +3,7 @@ This project use webpack 2.2
 
 convert es6 ⇒ es5
 
-## HOWTO
+## How To Use
 ``` 
 $ npm install
 $ npm run start
