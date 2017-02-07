@@ -22,5 +22,8 @@ $ npm run start
 * npm 3.8.3
 * node v5.10.1
 * windows 10
+* Ionic CLI Version 2.1.18
+* ionic v1.3.2
+* angular 1.5.3
 
 Thank you!
