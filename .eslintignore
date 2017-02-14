@@ -1,3 +1,3 @@
-app/lib
-app/img
-app/service-worker.js
+src/lib
+src/img
+src/service-worker.js
