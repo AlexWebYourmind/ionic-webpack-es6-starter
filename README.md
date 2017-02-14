@@ -9,6 +9,12 @@ $ npm install
 $ npm run start
 ```
 
+## Extra
+```
+$ npm run lint // eslint
+$ npm run flow // flowtype
+```
+
 ## Topics
 
 * css/sass
