@@ -1,0 +1,14 @@
+[ignore]
+.*/node_modules/.*
+.*/src/img/.*
+.*/www/.*
+.*/src/lib/ionic.*
+
+[include]
+.*/src/lib/ionic.*
+.*/node_modules/.*
+
+[libs]
+./src/decls
+
+[options]

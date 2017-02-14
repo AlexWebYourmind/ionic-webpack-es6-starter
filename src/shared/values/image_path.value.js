@@ -1,5 +1,3 @@
-'use strict';
-
 import iconPath from '../../img/me.png';
 import imagePath from '../../img/image.png';
 

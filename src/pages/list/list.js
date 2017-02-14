@@ -1,4 +1,6 @@
-module.exports = ($scope, $state, ImagePath, GreetingService) => {
+/* @flow */
+
+module.exports = ($scope: any, $state: any, ImagePath: any, GreetingService: any) => {
     $scope.thumbnail = ImagePath.iconPath;
     $scope.messages = GreetingService.getGreetings();
 };

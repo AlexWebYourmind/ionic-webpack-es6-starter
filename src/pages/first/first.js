@@ -1,4 +1,6 @@
-module.exports = ($scope, $state, ImagePath) => {
+/* @flow */
+
+module.exports = ($scope: any, $state: any, ImagePath: any) => {
 
     $scope.iconPath = ImagePath.iconPath;
     $scope.imagePath = ImagePath.imagePath;

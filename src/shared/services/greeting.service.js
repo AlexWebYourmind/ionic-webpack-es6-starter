@@ -1,8 +1,8 @@
-'use strict';
+/* @flow */
 
 module.exports = () => {
 
-    let greetings = [
+    let greetings: Array<string> = [
         'Hello World',
         'Hello Javascript',
         'Hello Ionic',
