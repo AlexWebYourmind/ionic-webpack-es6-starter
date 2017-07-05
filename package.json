@@ -6,10 +6,11 @@
     "lint": "./node_modules/.bin/eslint src",
     "flow": "./node_modules/.bin/flow",
     "clean": "rimraf ./www/src",
-    "build": "webpack",
+    "watch:build": "webpack --watch",
+    "watch:serve": "ionic serve",
     "prestart": "npm run clean",
     "poststart": "ionic serve",
-    "start": "npm run build"
+    "start": "npm-run-all --parallel clean watch:serve watch:build"
   },
   "dependencies": {
     "lodash": "^4.17.4"
@@ -31,6 +32,7 @@
     "gulp-util": "^2.2.14",
     "html-loader": "^0.4.4",
     "node-sass": "^4.5.0",
+    "npm-run-all": "^4.0.2",
     "rimraf": "^2.5.4",
     "sass-loader": "^5.0.0",
     "shelljs": "^0.3.0",
