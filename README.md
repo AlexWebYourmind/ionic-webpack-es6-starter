@@ -3,8 +3,11 @@ This project use webpack 2.2
 
 convert es6 ⇒ es5
 
+2017/07/05
+add settings for latest cli version
+
 ## How To Use
-``` 
+```
 $ npm install
 $ npm run start
 ```
@@ -23,7 +26,7 @@ $ npm run flow // flowtype
 * html
 * font
 
-## My Environment 
+## My Environment
 
 * npm 3.8.3
 * node v5.10.1
