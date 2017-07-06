@@ -2,5 +2,7 @@
   "name": "ionic-webpack-es6-starter",
   "app_id": "",
   "type": "ionic1",
-  "watchPatterns": []
+  "watchPatterns": [
+    "scss/**/*"
+  ]
 }
