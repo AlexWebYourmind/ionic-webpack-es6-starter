@@ -26,13 +26,32 @@ $ npm run flow // flowtype
 * html
 * font
 
-## My Environment
+## Tested environment
 
-* npm 3.8.3
-* node v5.10.1
-* windows 10
-* Ionic CLI Version 2.1.18
-* ionic v1.3.2
-* angular 1.5.3
+```bash
+$ ionic info
+
+global packages:
+ 
+    @ionic/cli-utils : 1.4.0
+    Gulp CLI         : not installed globally
+    Ionic CLI        : 3.4.0
+ 
+local packages:
+ 
+
+    @ionic/cli-plugin-gulp   : 1.0.1
+    @ionic/cli-plugin-ionic1 : 2.0.0
+    Ionic Framework          : ionic1 1.3.2
+ 
+System:
+ 
+    Node       : v7.2.1
+    OS         : Windows 10
+    Xcode      : not installed
+    ios-deploy : not installed
+    ios-sim    : not installed
+    npm        : 4.0.3
+```
 
 Thank you!
